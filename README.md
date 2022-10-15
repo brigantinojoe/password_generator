@@ -1,39 +1,18 @@
 # Password Generator
+
 ## Description
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-Passwords are always a point of contention. Do you create the same password for multiple sites? Do you create a slightly different password for each site with a general password convention? Where do you think of your passwords? Are they secure enough? Look no further, the password generated will ask you what you're looking for and create one based on the criteria you answered. 
-## Table of Contents (Optional)
-If your README is long, add a table of contents to make it easy for users to find what they need.
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+Passwords are always a point of contention. Do you create the same password for multiple sites? Do you create a slightly different password for each site with a general password convention? Where do you think of your passwords? Are they secure enough? Look no further, the password generator will ask you what you're looking for and create a customzied password based your requested criteria. 
+
+I learned that using Math.Random() alongside the Math.Floor() functions allow you to generate a lot of random values. Although I'm not quite there, I can only imagine how useful that is when creating educational material, games, and playful websites.
+
 ## Installation
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+There is no installation necessary. Please visit [this website](https://brigantinojoe.github.io/password_generator/) to generate your password.
+
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-## Credits
-List your collaborators, if any, with links to their GitHub profiles.
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-If you followed tutorials, include links to those here as well.
-## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
----
-:trophy: The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-## Badges
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-## Features
-If your project has a lot of features, list them here.
-## How to Contribute
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-## Tests
-Go the extra mile and write tests for your application. Then provide examples on ho
+Please read the following instructions to use the Password Generator:
+1) CLick the red "Generate Password" button at the bottom of the white text box.
+2) Answer the promts provided by the console. Make sure to use a number instead of a word, the generator not create passwords with character lengths defined with a string.     
+    ![Generate Password Button](./assets/images/Screenshot%202022-10-15%20142939.jpg)
+3) Answer the following promts, using the 'OK' as 'Yes' and the 'Cancel' as 'No' when answering what kind of characters should be included in the final password.
+4) Copy your customized password and enjoy your newfounded security! The password will populate in the text bax with the dashed border as shown below:
+![Generated Password](./assets/images/box.jpg)
